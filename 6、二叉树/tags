@@ -1,0 +1,180 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AVL_H	AVL.h	2;"	d
+CreateBinaryTree	AVL.cpp	/^TreeNode* CreateBinaryTree() {$/;"	f	signature:()
+EH	AVL.h	11;"	d
+FALSE	AVL.h	9;"	d
+InsertAVL	AVL.cpp	/^bool InsertAVL(TreeNode*& T, int e, bool& taller) {$/;"	f	signature:(TreeNode*& T, int e, bool& taller)
+LH	AVL.h	10;"	d
+L_Rotate	AVL.cpp	/^void L_Rotate(TreeNode*& p) {$/;"	f	signature:(TreeNode*& p)
+LeftBalance	AVL.cpp	/^void LeftBalance(TreeNode*& T) {$/;"	f	signature:(TreeNode*& T)
+RH	AVL.h	12;"	d
+R_Rotate	AVL.cpp	/^void R_Rotate(TreeNode*& p) {$/;"	f	signature:(TreeNode*& p)
+Recursion	AVL.cpp	/^void Recursion(TreeNode* root) {$/;"	f	signature:(TreeNode* root)
+RightBalance	AVL.cpp	/^void RightBalance(TreeNode*& T) {$/;"	f	signature:(TreeNode*& T)
+Solution	二叉树的层序遍历.cpp	/^class Solution {$/;"	c	file:
+Solution	二叉树的递归遍历.cpp	/^class Solution {$/;"	c	file:
+Solution	平衡二叉树.cpp	/^class Solution {$/;"	c	file:
+Solution01	二叉树的所有路径.cpp	/^class Solution01{$/;"	c	file:
+Solution01	二叉树的最大深度.cpp	/^class Solution01{$/;"	c	file:
+Solution01	二叉树的最小深度.cpp	/^class Solution01{$/;"	c	file:
+Solution01	二叉树的统一迭代法.cpp	/^class Solution01{$/;"	c	file:
+Solution01	二叉树的迭代遍历.cpp	/^class Solution01 {      \/\/先序$/;"	c	file:
+Solution01	完全二叉树的节点个数.cpp	/^class Solution01{$/;"	c	file:
+Solution01	对称二叉树.cpp	/^class Solution01 {$/;"	c	file:
+Solution01	左叶子之和.cpp	/^class Solution01{$/;"	c	file:
+Solution01	找树左下角的值.cpp	/^class Solution01{$/;"	c	file:
+Solution01	翻转二叉树.cpp	/^class Solution01{$/;"	c	file:
+Solution01	路径总和Ⅰ.cpp	/^class Solution01{$/;"	c	file:
+Solution01::binaryTreePaths	二叉树的所有路径.cpp	/^    vector<string> binaryTreePaths(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+Solution01::compare	对称二叉树.cpp	/^    bool compare(TreeNode* lchild, TreeNode* rchild){$/;"	f	class:Solution01	access:public	signature:(TreeNode* lchild, TreeNode* rchild)
+Solution01::countNodes	完全二叉树的节点个数.cpp	/^    int countNodes(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+Solution01::findBottomLeftValue	找树左下角的值.cpp	/^    int findBottomLeftValue(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+Solution01::getDepth	二叉树的最大深度.cpp	/^    int getDepth(TreeNode* node){$/;"	f	class:Solution01	access:public	signature:(TreeNode* node)
+Solution01::getDepth	二叉树的最小深度.cpp	/^    int getDepth(TreeNode* node){$/;"	f	class:Solution01	access:public	signature:(TreeNode* node)
+Solution01::getNodesNum	完全二叉树的节点个数.cpp	/^    int getNodesNum(TreeNode* cur){$/;"	f	class:Solution01	file:	access:private	signature:(TreeNode* cur)
+Solution01::haspathsum	路径总和Ⅰ.cpp	/^    bool haspathsum(TreeNode* root, int sum){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root, int sum)
+Solution01::inorderTraversal	二叉树的统一迭代法.cpp	/^    vector<int> inorderTraversal(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+Solution01::invertTree	翻转二叉树.cpp	/^    TreeNode* invertTree(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+Solution01::isSymmetric	对称二叉树.cpp	/^    bool isSymmetric(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+Solution01::maxLen	找树左下角的值.cpp	/^    int maxLen = INT_MIN;   \/\/全局变量  记录最大深度$/;"	m	class:Solution01	file:	access:public
+Solution01::maxleftValue	找树左下角的值.cpp	/^    int maxleftValue;       \/\/全局变量  记录最大深度左节点的数值$/;"	m	class:Solution01	file:	access:public
+Solution01::minDepth	二叉树的最小深度.cpp	/^    int minDepth(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+Solution01::preorderTraversal	二叉树的迭代遍历.cpp	/^    vector<int> preorderTraversal(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+Solution01::sumOfLeftLeaves	左叶子之和.cpp	/^    int sumOfLeftLeaves(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+Solution01::traversal	二叉树的所有路径.cpp	/^    void traversal(TreeNode* cur, vector<int>& path, vector<string>& result){$/;"	f	class:Solution01	file:	access:private	signature:(TreeNode* cur, vector<int>& path, vector<string>& result)
+Solution01::traversal	找树左下角的值.cpp	/^    void traversal(TreeNode* node, int leftLen){    \/\/leftLen记录当前的最长深度$/;"	f	class:Solution01	access:public	signature:(TreeNode* node, int leftLen)
+Solution01::traversal	路径总和Ⅰ.cpp	/^    bool traversal(TreeNode* cur, int count){$/;"	f	class:Solution01	file:	access:private	signature:(TreeNode* cur, int count)
+Solution02	二叉树的所有路径.cpp	/^class Solution02{$/;"	c	file:
+Solution02	二叉树的最大深度.cpp	/^class Solution02{$/;"	c	file:
+Solution02	二叉树的最小深度.cpp	/^class Solution02{$/;"	c	file:
+Solution02	二叉树的统一迭代法.cpp	/^class Solution02{$/;"	c	file:
+Solution02	二叉树的迭代遍历.cpp	/^class Solution02 {      \/\/中序$/;"	c	file:
+Solution02	完全二叉树的节点个数.cpp	/^class Solution02{$/;"	c	file:
+Solution02	对称二叉树.cpp	/^class Solution02 {$/;"	c	file:
+Solution02	左叶子之和.cpp	/^class Solution02{$/;"	c	file:
+Solution02	找树左下角的值.cpp	/^class Solution02{$/;"	c	file:
+Solution02	翻转二叉树.cpp	/^class Solution02 {$/;"	c	file:
+Solution02	路径总和Ⅰ.cpp	/^class Solution02{$/;"	c	file:
+Solution02::binaryTreePaths	二叉树的所有路径.cpp	/^    vector<string> binaryTreePaths(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+Solution02::countNodes	完全二叉树的节点个数.cpp	/^    int countNodes(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+Solution02::findBottomLeftValue	找树左下角的值.cpp	/^    int findBottomLeftValue(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+Solution02::getDepth	二叉树的最大深度.cpp	/^    void getDepth(TreeNode* node, int depth){$/;"	f	class:Solution02	access:public	signature:(TreeNode* node, int depth)
+Solution02::haspathsum	路径总和Ⅰ.cpp	/^    bool haspathsum(TreeNode* root, int sum){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root, int sum)
+Solution02::inorderTraversal	二叉树的迭代遍历.cpp	/^    vector<int> inorderTraversal(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+Solution02::invertTree	翻转二叉树.cpp	/^    TreeNode* invertTree(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+Solution02::isSymmetric	对称二叉树.cpp	/^    bool isSymmetric(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+Solution02::maxdepth	二叉树的最大深度.cpp	/^    int maxdepth(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+Solution02::minDepth	二叉树的最小深度.cpp	/^    int minDepth(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+Solution02::preorderTraversal	二叉树的统一迭代法.cpp	/^    vector<int> preorderTraversal(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+Solution02::result	二叉树的最大深度.cpp	/^    int result;$/;"	m	class:Solution02	file:	access:public
+Solution02::sumOfLeftLeaves	左叶子之和.cpp	/^    int sumOfLeftLeaves(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+Solution02::traversal	二叉树的所有路径.cpp	/^    void traversal(TreeNode* cur, string path, vector<string>& result){$/;"	f	class:Solution02	file:	access:private	signature:(TreeNode* cur, string path, vector<string>& result)
+Solution03	二叉树的所有路径.cpp	/^class Solution03{$/;"	c	file:
+Solution03	二叉树的最大深度.cpp	/^class Solution03 {$/;"	c	file:
+Solution03	二叉树的迭代遍历.cpp	/^class Solution03 {      \/\/后序$/;"	c	file:
+Solution03	完全二叉树的节点个数.cpp	/^class Solution03{$/;"	c	file:
+Solution03	对称二叉树.cpp	/^class Solution03 {$/;"	c	file:
+Solution03	翻转二叉树.cpp	/^class Solution03 {$/;"	c	file:
+Solution03::binaryTreePaths	二叉树的所有路径.cpp	/^    vector<string> binaryTreePaths(TreeNode* root){$/;"	f	class:Solution03	access:public	signature:(TreeNode* root)
+Solution03::countNodes	完全二叉树的节点个数.cpp	/^    int countNodes(TreeNode* root){$/;"	f	class:Solution03	access:public	signature:(TreeNode* root)
+Solution03::invertTree	翻转二叉树.cpp	/^    TreeNode* invertTree(TreeNode* root){$/;"	f	class:Solution03	access:public	signature:(TreeNode* root)
+Solution03::isSymmetric	对称二叉树.cpp	/^    bool isSymmetric(TreeNode* root){$/;"	f	class:Solution03	access:public	signature:(TreeNode* root)
+Solution03::maxdepth	二叉树的最大深度.cpp	/^    int maxdepth(TreeNode* root){$/;"	f	class:Solution03	access:public	signature:(TreeNode* root)
+Solution03::postorderTraversal	二叉树的迭代遍历.cpp	/^    vector<int> postorderTraversal(TreeNode* root){$/;"	f	class:Solution03	access:public	signature:(TreeNode* root)
+Solution04	翻转二叉树.cpp	/^class Solution04 {$/;"	c	file:
+Solution04::invertTree	翻转二叉树.cpp	/^    TreeNode* invertTree(TreeNode* root){$/;"	f	class:Solution04	access:public	signature:(TreeNode* root)
+Solution::getDepth	平衡二叉树.cpp	/^    int getDepth(TreeNode* node){$/;"	f	class:Solution	access:public	signature:(TreeNode* node)
+Solution::isBalanced	平衡二叉树.cpp	/^    bool isBalanced(TreeNode* root){$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::levelOrder	二叉树的层序遍历.cpp	/^    vector<vector<int>> levelOrder(TreeNode* root){$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::preorderTraversal	二叉树的递归遍历.cpp	/^    vector<int> preorderTraversal(TreeNode* root){$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+Solution::traversal	二叉树的递归遍历.cpp	/^    void traversal(TreeNode* cur, vector<int>& vec){$/;"	f	class:Solution	access:public	signature:(TreeNode* cur, vector<int>& vec)
+TRUE	AVL.h	8;"	d
+TreeNode	AVL.h	/^typedef struct TreeNode {$/;"	s
+TreeNode	AVL.h	/^}TreeNode;$/;"	t	typeref:struct:TreeNode
+TreeNode::bf	AVL.h	/^	int bf;							\/\/balance factorƽ�����ӣ����������-��������ȣ�$/;"	m	struct:TreeNode	access:public
+TreeNode::data	AVL.h	/^	int data;						\/\/�ڵ�����$/;"	m	struct:TreeNode	access:public
+TreeNode::lchild	AVL.h	/^	struct TreeNode* lchild;		\/\/����ָ��$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	access:public
+TreeNode::rchild	AVL.h	/^	struct TreeNode* rchild;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	access:public
+bf	AVL.h	/^	int bf;							\/\/balance factorƽ�����ӣ����������-��������ȣ�$/;"	m	struct:TreeNode	access:public
+binaryTreePaths	二叉树的所有路径.cpp	/^    vector<string> binaryTreePaths(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+binaryTreePaths	二叉树的所有路径.cpp	/^    vector<string> binaryTreePaths(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+binaryTreePaths	二叉树的所有路径.cpp	/^    vector<string> binaryTreePaths(TreeNode* root){$/;"	f	class:Solution03	access:public	signature:(TreeNode* root)
+compare	对称二叉树.cpp	/^    bool compare(TreeNode* lchild, TreeNode* rchild){$/;"	f	class:Solution01	access:public	signature:(TreeNode* lchild, TreeNode* rchild)
+countNodes	完全二叉树的节点个数.cpp	/^    int countNodes(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+countNodes	完全二叉树的节点个数.cpp	/^    int countNodes(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+countNodes	完全二叉树的节点个数.cpp	/^    int countNodes(TreeNode* root){$/;"	f	class:Solution03	access:public	signature:(TreeNode* root)
+data	AVL.h	/^	int data;						\/\/�ڵ�����$/;"	m	struct:TreeNode	access:public
+findBottomLeftValue	找树左下角的值.cpp	/^    int findBottomLeftValue(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+findBottomLeftValue	找树左下角的值.cpp	/^    int findBottomLeftValue(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+getDepth	二叉树的最大深度.cpp	/^    int getDepth(TreeNode* node){$/;"	f	class:Solution01	access:public	signature:(TreeNode* node)
+getDepth	二叉树的最大深度.cpp	/^    void getDepth(TreeNode* node, int depth){$/;"	f	class:Solution02	access:public	signature:(TreeNode* node, int depth)
+getDepth	二叉树的最小深度.cpp	/^    int getDepth(TreeNode* node){$/;"	f	class:Solution01	access:public	signature:(TreeNode* node)
+getDepth	平衡二叉树.cpp	/^    int getDepth(TreeNode* node){$/;"	f	class:Solution	access:public	signature:(TreeNode* node)
+getNodesNum	完全二叉树的节点个数.cpp	/^    int getNodesNum(TreeNode* cur){$/;"	f	class:Solution01	file:	access:private	signature:(TreeNode* cur)
+haspathsum	路径总和Ⅰ.cpp	/^    bool haspathsum(TreeNode* root, int sum){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root, int sum)
+haspathsum	路径总和Ⅰ.cpp	/^    bool haspathsum(TreeNode* root, int sum){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root, int sum)
+inorderTraversal	二叉树的统一迭代法.cpp	/^    vector<int> inorderTraversal(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+inorderTraversal	二叉树的迭代遍历.cpp	/^    vector<int> inorderTraversal(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+invertTree	翻转二叉树.cpp	/^    TreeNode* invertTree(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+invertTree	翻转二叉树.cpp	/^    TreeNode* invertTree(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+invertTree	翻转二叉树.cpp	/^    TreeNode* invertTree(TreeNode* root){$/;"	f	class:Solution03	access:public	signature:(TreeNode* root)
+invertTree	翻转二叉树.cpp	/^    TreeNode* invertTree(TreeNode* root){$/;"	f	class:Solution04	access:public	signature:(TreeNode* root)
+isBalanced	平衡二叉树.cpp	/^    bool isBalanced(TreeNode* root){$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+isSymmetric	对称二叉树.cpp	/^    bool isSymmetric(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+isSymmetric	对称二叉树.cpp	/^    bool isSymmetric(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+isSymmetric	对称二叉树.cpp	/^    bool isSymmetric(TreeNode* root){$/;"	f	class:Solution03	access:public	signature:(TreeNode* root)
+lchild	AVL.h	/^	struct TreeNode* lchild;		\/\/����ָ��$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	access:public
+levelOrder	二叉树的层序遍历.cpp	/^    vector<vector<int>> levelOrder(TreeNode* root){$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+main	二叉树的层序遍历.cpp	/^int main(){$/;"	f	signature:()
+main	二叉树的所有路径.cpp	/^int main(){$/;"	f	signature:()
+main	二叉树的最大深度.cpp	/^int main(){$/;"	f	signature:()
+main	二叉树的最小深度.cpp	/^int main(){$/;"	f	signature:()
+main	二叉树的统一迭代法.cpp	/^int main(){$/;"	f	signature:()
+main	二叉树的迭代遍历.cpp	/^int main(){$/;"	f	signature:()
+main	二叉树的递归遍历.cpp	/^int main(){$/;"	f	signature:()
+main	完全二叉树的节点个数.cpp	/^int main(){$/;"	f	signature:()
+main	对称二叉树.cpp	/^int main(){$/;"	f	signature:()
+main	左叶子之和.cpp	/^int main(){$/;"	f	signature:()
+main	平衡二叉树.cpp	/^int main(){$/;"	f	signature:()
+main	找树左下角的值.cpp	/^int main(){$/;"	f	signature:()
+main	翻转二叉树.cpp	/^int main(){$/;"	f	signature:()
+main	路径总和Ⅰ.cpp	/^int main(){$/;"	f	signature:()
+maxLen	找树左下角的值.cpp	/^    int maxLen = INT_MIN;   \/\/全局变量  记录最大深度$/;"	m	class:Solution01	file:	access:public
+maxdepth	二叉树的最大深度.cpp	/^    int maxdepth(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+maxdepth	二叉树的最大深度.cpp	/^    int maxdepth(TreeNode* root){$/;"	f	class:Solution03	access:public	signature:(TreeNode* root)
+maxleftValue	找树左下角的值.cpp	/^    int maxleftValue;       \/\/全局变量  记录最大深度左节点的数值$/;"	m	class:Solution01	file:	access:public
+minDepth	二叉树的最小深度.cpp	/^    int minDepth(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+minDepth	二叉树的最小深度.cpp	/^    int minDepth(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+postorderTraversal	二叉树的迭代遍历.cpp	/^    vector<int> postorderTraversal(TreeNode* root){$/;"	f	class:Solution03	access:public	signature:(TreeNode* root)
+preorderTraversal	二叉树的统一迭代法.cpp	/^    vector<int> preorderTraversal(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+preorderTraversal	二叉树的迭代遍历.cpp	/^    vector<int> preorderTraversal(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+preorderTraversal	二叉树的递归遍历.cpp	/^    vector<int> preorderTraversal(TreeNode* root){$/;"	f	class:Solution	access:public	signature:(TreeNode* root)
+preorderTraversal	翻转二叉树.cpp	/^void preorderTraversal(TreeNode* root, vector<int>& result){$/;"	f	signature:(TreeNode* root, vector<int>& result)
+rchild	AVL.h	/^	struct TreeNode* rchild;$/;"	m	struct:TreeNode	typeref:struct:TreeNode::TreeNode	access:public
+result	二叉树的最大深度.cpp	/^    int result;$/;"	m	class:Solution02	file:	access:public
+sumOfLeftLeaves	左叶子之和.cpp	/^    int sumOfLeftLeaves(TreeNode* root){$/;"	f	class:Solution01	access:public	signature:(TreeNode* root)
+sumOfLeftLeaves	左叶子之和.cpp	/^    int sumOfLeftLeaves(TreeNode* root){$/;"	f	class:Solution02	access:public	signature:(TreeNode* root)
+test01	二叉树的层序遍历.cpp	/^void test01(){$/;"	f	signature:()
+test01	二叉树的所有路径.cpp	/^void test01(){$/;"	f	signature:()
+test01	二叉树的最大深度.cpp	/^void test01(){$/;"	f	signature:()
+test01	二叉树的最小深度.cpp	/^void test01(){$/;"	f	signature:()
+test01	二叉树的统一迭代法.cpp	/^void test01(){$/;"	f	signature:()
+test01	二叉树的迭代遍历.cpp	/^void test01(){$/;"	f	signature:()
+test01	二叉树的递归遍历.cpp	/^void test01(){$/;"	f	signature:()
+test01	完全二叉树的节点个数.cpp	/^void test01(){$/;"	f	signature:()
+test01	对称二叉树.cpp	/^void test01(){$/;"	f	signature:()
+test01	左叶子之和.cpp	/^void test01(){$/;"	f	signature:()
+test01	平衡二叉树.cpp	/^void test01(){$/;"	f	signature:()
+test01	找树左下角的值.cpp	/^void test01(){$/;"	f	signature:()
+test01	翻转二叉树.cpp	/^void test01(){$/;"	f	signature:()
+test01	路径总和Ⅰ.cpp	/^void test01(){$/;"	f	signature:()
+traversal	二叉树的所有路径.cpp	/^    void traversal(TreeNode* cur, string path, vector<string>& result){$/;"	f	class:Solution02	file:	access:private	signature:(TreeNode* cur, string path, vector<string>& result)
+traversal	二叉树的所有路径.cpp	/^    void traversal(TreeNode* cur, vector<int>& path, vector<string>& result){$/;"	f	class:Solution01	file:	access:private	signature:(TreeNode* cur, vector<int>& path, vector<string>& result)
+traversal	二叉树的递归遍历.cpp	/^    void traversal(TreeNode* cur, vector<int>& vec){$/;"	f	class:Solution	access:public	signature:(TreeNode* cur, vector<int>& vec)
+traversal	找树左下角的值.cpp	/^    void traversal(TreeNode* node, int leftLen){    \/\/leftLen记录当前的最长深度$/;"	f	class:Solution01	access:public	signature:(TreeNode* node, int leftLen)
+traversal	路径总和Ⅰ.cpp	/^    bool traversal(TreeNode* cur, int count){$/;"	f	class:Solution01	file:	access:private	signature:(TreeNode* cur, int count)
