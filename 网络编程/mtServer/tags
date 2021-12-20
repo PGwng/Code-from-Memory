@@ -1,0 +1,109 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Accept	net_frame.cpp	/^bool CTcpServer::Accept(){$/;"	f	class:CTcpServer	signature:()
+Accept	net_frame.h	/^    bool Accept();$/;"	p	class:CTcpServer	access:public	signature:()
+CTcpClient	net_frame.cpp	/^CTcpClient::CTcpClient(){$/;"	f	class:CTcpClient	signature:()
+CTcpClient	net_frame.h	/^    CTcpClient();   \/\/构造函数$/;"	p	class:CTcpClient	access:public	signature:()
+CTcpClient	net_frame.h	/^class CTcpClient{$/;"	c
+CTcpClient::CTcpClient	net_frame.cpp	/^CTcpClient::CTcpClient(){$/;"	f	class:CTcpClient	signature:()
+CTcpClient::CTcpClient	net_frame.h	/^    CTcpClient();   \/\/构造函数$/;"	p	class:CTcpClient	access:public	signature:()
+CTcpClient::Close	net_frame.cpp	/^void CTcpClient::Close(){$/;"	f	class:CTcpClient	signature:()
+CTcpClient::Close	net_frame.h	/^    void Close();$/;"	p	class:CTcpClient	access:public	signature:()
+CTcpClient::ConnectToServer	net_frame.cpp	/^bool CTcpClient:: ConnectToServer(const char* ip, const int port){$/;"	f	class:CTcpClient	signature:(const char* ip, const int port)
+CTcpClient::ConnectToServer	net_frame.h	/^    bool ConnectToServer(const char* ip, const int port);$/;"	p	class:CTcpClient	access:public	signature:(const char* ip, const int port)
+CTcpClient::Read	net_frame.cpp	/^bool CTcpClient::Read(char* buffer, const int itimeout){$/;"	f	class:CTcpClient	signature:(char* buffer, const int itimeout)
+CTcpClient::Read	net_frame.h	/^    bool Read(char* buffer, const int itimeout = 0);$/;"	p	class:CTcpClient	access:public	signature:(char* buffer, const int itimeout = 0)
+CTcpClient::Write	net_frame.cpp	/^bool CTcpClient::Write(const char* buffer, const int ibuflen){$/;"	f	class:CTcpClient	signature:(const char* buffer, const int ibuflen)
+CTcpClient::Write	net_frame.h	/^    bool Write(const char* buffer, const int ibuflen = 0);$/;"	p	class:CTcpClient	access:public	signature:(const char* buffer, const int ibuflen = 0)
+CTcpClient::m_btimeout	net_frame.h	/^    bool m_btimeout;\/\/调用Read和Write方法时，失败的原因是否是超时，true-超时$/;"	m	class:CTcpClient	access:public
+CTcpClient::m_buflen	net_frame.h	/^    int  m_buflen;  \/\/调用Read方法后，接收到的报文的大小，单位：字节$/;"	m	class:CTcpClient	access:public
+CTcpClient::m_ip	net_frame.h	/^    char m_ip[21];  \/\/服务端的ip地址$/;"	m	class:CTcpClient	access:public
+CTcpClient::m_port	net_frame.h	/^    int  m_port;    \/\/与服务端通信的端口$/;"	m	class:CTcpClient	access:public
+CTcpClient::m_sockfd	net_frame.h	/^    int  m_sockfd;  \/\/客户端的socket$/;"	m	class:CTcpClient	access:public
+CTcpClient::~CTcpClient	net_frame.cpp	/^CTcpClient::~CTcpClient(){$/;"	f	class:CTcpClient	signature:()
+CTcpClient::~CTcpClient	net_frame.h	/^    ~CTcpClient();  \/\/析构函数自动关闭socket，释放资源$/;"	p	class:CTcpClient	access:public	signature:()
+CTcpServer	net_frame.cpp	/^CTcpServer::CTcpServer(){$/;"	f	class:CTcpServer	signature:()
+CTcpServer	net_frame.h	/^    CTcpServer();       \/\/构造函数$/;"	p	class:CTcpServer	access:public	signature:()
+CTcpServer	net_frame.h	/^class CTcpServer{$/;"	c
+CTcpServer::Accept	net_frame.cpp	/^bool CTcpServer::Accept(){$/;"	f	class:CTcpServer	signature:()
+CTcpServer::Accept	net_frame.h	/^    bool Accept();$/;"	p	class:CTcpServer	access:public	signature:()
+CTcpServer::CTcpServer	net_frame.cpp	/^CTcpServer::CTcpServer(){$/;"	f	class:CTcpServer	signature:()
+CTcpServer::CTcpServer	net_frame.h	/^    CTcpServer();       \/\/构造函数$/;"	p	class:CTcpServer	access:public	signature:()
+CTcpServer::CloseClient	net_frame.cpp	/^void CTcpServer::CloseClient(){$/;"	f	class:CTcpServer	signature:()
+CTcpServer::CloseClient	net_frame.h	/^    void CloseClient();$/;"	p	class:CTcpServer	access:public	signature:()
+CTcpServer::CloseListen	net_frame.cpp	/^void CTcpServer::CloseListen(){$/;"	f	class:CTcpServer	signature:()
+CTcpServer::CloseListen	net_frame.h	/^    void CloseListen();$/;"	p	class:CTcpServer	access:public	signature:()
+CTcpServer::GetIP	net_frame.cpp	/^char* CTcpServer::GetIP(){$/;"	f	class:CTcpServer	signature:()
+CTcpServer::GetIP	net_frame.h	/^    char *GetIP();$/;"	p	class:CTcpServer	access:public	signature:()
+CTcpServer::InitServer	net_frame.cpp	/^bool CTcpServer::InitServer(const unsigned int port){$/;"	f	class:CTcpServer	signature:(const unsigned int port)
+CTcpServer::InitServer	net_frame.h	/^    bool InitServer(const unsigned int port);$/;"	p	class:CTcpServer	access:public	signature:(const unsigned int port)
+CTcpServer::Read	net_frame.cpp	/^bool CTcpServer::Read(char* buffer, const int itimeout){$/;"	f	class:CTcpServer	signature:(char* buffer, const int itimeout)
+CTcpServer::Read	net_frame.h	/^    bool Read(char* buffer, const int itimeout = 0);$/;"	p	class:CTcpServer	access:public	signature:(char* buffer, const int itimeout = 0)
+CTcpServer::Write	net_frame.cpp	/^bool CTcpServer::Write(const char* buffer, const int ibuflen){$/;"	f	class:CTcpServer	signature:(const char* buffer, const int ibuflen)
+CTcpServer::Write	net_frame.h	/^    bool Write(const char* buffer, const int ibuflen = 0);$/;"	p	class:CTcpServer	access:public	signature:(const char* buffer, const int ibuflen = 0)
+CTcpServer::m_btimeout	net_frame.h	/^    bool m_btimeout;    \/\/调用Read和Write方法时，失败的原因是否是超时$/;"	m	class:CTcpServer	access:public
+CTcpServer::m_buflen	net_frame.h	/^    int m_buflen;       \/\/调用Read方法后，接收到的报文的大小，单位：字节$/;"	m	class:CTcpServer	access:public
+CTcpServer::m_clientaddr	net_frame.h	/^    struct sockaddr_in m_clientaddr;    \/\/客户端的地址信息$/;"	m	class:CTcpServer	typeref:struct:CTcpServer::sockaddr_in	access:private
+CTcpServer::m_connfd	net_frame.h	/^    int m_connfd;       \/\/客户端连接上来的socket$/;"	m	class:CTcpServer	access:public
+CTcpServer::m_listenfd	net_frame.h	/^    int m_listenfd;     \/\/服务端用于监听的socket$/;"	m	class:CTcpServer	access:public
+CTcpServer::m_servaddr	net_frame.h	/^    struct sockaddr_in m_servaddr;      \/\/服务端的地址信息$/;"	m	class:CTcpServer	typeref:struct:CTcpServer::sockaddr_in	access:private
+CTcpServer::m_socklen	net_frame.h	/^    int m_socklen;      \/\/结构体struct sockaddr_in的大小$/;"	m	class:CTcpServer	access:private
+CTcpServer::~CTcpServer	net_frame.cpp	/^CTcpServer::~CTcpServer(){$/;"	f	class:CTcpServer	signature:()
+CTcpServer::~CTcpServer	net_frame.h	/^    ~CTcpServer();  \/\/析构函数自动关闭socket，释放资源$/;"	p	class:CTcpServer	access:public	signature:()
+ChildEXIT	MutiProcessServer.cpp	/^void ChildEXIT(int sig);    \/\/子进程退出函数 不是正常退出是的处理回收$/;"	p	file:	signature:(int sig)
+ChildEXIT	MutiProcessServer.cpp	/^void ChildEXIT(int sig){$/;"	f	signature:(int sig)
+Close	net_frame.cpp	/^void CTcpClient::Close(){$/;"	f	class:CTcpClient	signature:()
+Close	net_frame.h	/^    void Close();$/;"	p	class:CTcpClient	access:public	signature:()
+CloseClient	net_frame.cpp	/^void CTcpServer::CloseClient(){$/;"	f	class:CTcpServer	signature:()
+CloseClient	net_frame.h	/^    void CloseClient();$/;"	p	class:CTcpServer	access:public	signature:()
+CloseListen	net_frame.cpp	/^void CTcpServer::CloseListen(){$/;"	f	class:CTcpServer	signature:()
+CloseListen	net_frame.h	/^    void CloseListen();$/;"	p	class:CTcpServer	access:public	signature:()
+ConnectToServer	net_frame.cpp	/^bool CTcpClient:: ConnectToServer(const char* ip, const int port){$/;"	f	class:CTcpClient	signature:(const char* ip, const int port)
+ConnectToServer	net_frame.h	/^    bool ConnectToServer(const char* ip, const int port);$/;"	p	class:CTcpClient	access:public	signature:(const char* ip, const int port)
+FathEXIT	MutiProcessServer.cpp	/^void FathEXIT(int sig);     \/\/父进程退出函数$/;"	p	file:	signature:(int sig)
+FathEXIT	MutiProcessServer.cpp	/^void FathEXIT(int sig){$/;"	f	signature:(int sig)
+GetIP	net_frame.cpp	/^char* CTcpServer::GetIP(){$/;"	f	class:CTcpServer	signature:()
+GetIP	net_frame.h	/^    char *GetIP();$/;"	p	class:CTcpServer	access:public	signature:()
+InitServer	net_frame.cpp	/^bool CTcpServer::InitServer(const unsigned int port){$/;"	f	class:CTcpServer	signature:(const unsigned int port)
+InitServer	net_frame.h	/^    bool InitServer(const unsigned int port);$/;"	p	class:CTcpServer	access:public	signature:(const unsigned int port)
+NET_FRAME_H	net_frame.h	8;"	d
+Read	net_frame.cpp	/^bool CTcpClient::Read(char* buffer, const int itimeout){$/;"	f	class:CTcpClient	signature:(char* buffer, const int itimeout)
+Read	net_frame.cpp	/^bool CTcpServer::Read(char* buffer, const int itimeout){$/;"	f	class:CTcpServer	signature:(char* buffer, const int itimeout)
+Read	net_frame.h	/^    bool Read(char* buffer, const int itimeout = 0);$/;"	p	class:CTcpClient	access:public	signature:(char* buffer, const int itimeout = 0)
+Read	net_frame.h	/^    bool Read(char* buffer, const int itimeout = 0);$/;"	p	class:CTcpServer	access:public	signature:(char* buffer, const int itimeout = 0)
+Readn	net_frame.cpp	/^bool Readn(const int sockfd, char* buffer, const size_t n){$/;"	f	signature:(const int sockfd, char* buffer, const size_t n)
+Readn	net_frame.h	/^bool Readn(const int sockfd, char* buffer, const size_t n);$/;"	p	signature:(const int sockfd, char* buffer, const size_t n)
+TcpRead	net_frame.cpp	/^bool TcpRead(const int sockfd, char* buffer, int* ibuflen, const int itimeout){$/;"	f	signature:(const int sockfd, char* buffer, int* ibuflen, const int itimeout)
+TcpRead	net_frame.h	/^bool TcpRead(const int sockfd, char* buffer, int* ibuflen, const int itimeout = 0);$/;"	p	signature:(const int sockfd, char* buffer, int* ibuflen, const int itimeout = 0)
+TcpServer	MutiProcessServer.cpp	/^CTcpServer TcpServer;   \/\/创建服务端对象$/;"	v
+TcpWrite	net_frame.cpp	/^bool TcpWrite(const int sockfd, const char* buffer, const int ibuflen){$/;"	f	signature:(const int sockfd, const char* buffer, const int ibuflen)
+TcpWrite	net_frame.h	/^bool TcpWrite(const int sockfd, const char* buffer, const int ibuflen = 0);$/;"	p	signature:(const int sockfd, const char* buffer, const int ibuflen = 0)
+Write	net_frame.cpp	/^bool CTcpClient::Write(const char* buffer, const int ibuflen){$/;"	f	class:CTcpClient	signature:(const char* buffer, const int ibuflen)
+Write	net_frame.cpp	/^bool CTcpServer::Write(const char* buffer, const int ibuflen){$/;"	f	class:CTcpServer	signature:(const char* buffer, const int ibuflen)
+Write	net_frame.h	/^    bool Write(const char* buffer, const int ibuflen = 0);$/;"	p	class:CTcpClient	access:public	signature:(const char* buffer, const int ibuflen = 0)
+Write	net_frame.h	/^    bool Write(const char* buffer, const int ibuflen = 0);$/;"	p	class:CTcpServer	access:public	signature:(const char* buffer, const int ibuflen = 0)
+Writen	net_frame.cpp	/^bool Writen(const int sockfd, const char* buffer, const size_t n){$/;"	f	signature:(const int sockfd, const char* buffer, const size_t n)
+Writen	net_frame.h	/^bool Writen(const int sockfd, const char* buffer, const size_t n);$/;"	p	signature:(const int sockfd, const char* buffer, const size_t n)
+m_btimeout	net_frame.h	/^    bool m_btimeout;    \/\/调用Read和Write方法时，失败的原因是否是超时$/;"	m	class:CTcpServer	access:public
+m_btimeout	net_frame.h	/^    bool m_btimeout;\/\/调用Read和Write方法时，失败的原因是否是超时，true-超时$/;"	m	class:CTcpClient	access:public
+m_buflen	net_frame.h	/^    int  m_buflen;  \/\/调用Read方法后，接收到的报文的大小，单位：字节$/;"	m	class:CTcpClient	access:public
+m_buflen	net_frame.h	/^    int m_buflen;       \/\/调用Read方法后，接收到的报文的大小，单位：字节$/;"	m	class:CTcpServer	access:public
+m_clientaddr	net_frame.h	/^    struct sockaddr_in m_clientaddr;    \/\/客户端的地址信息$/;"	m	class:CTcpServer	typeref:struct:CTcpServer::sockaddr_in	access:private
+m_connfd	net_frame.h	/^    int m_connfd;       \/\/客户端连接上来的socket$/;"	m	class:CTcpServer	access:public
+m_ip	net_frame.h	/^    char m_ip[21];  \/\/服务端的ip地址$/;"	m	class:CTcpClient	access:public
+m_listenfd	net_frame.h	/^    int m_listenfd;     \/\/服务端用于监听的socket$/;"	m	class:CTcpServer	access:public
+m_port	net_frame.h	/^    int  m_port;    \/\/与服务端通信的端口$/;"	m	class:CTcpClient	access:public
+m_servaddr	net_frame.h	/^    struct sockaddr_in m_servaddr;      \/\/服务端的地址信息$/;"	m	class:CTcpServer	typeref:struct:CTcpServer::sockaddr_in	access:private
+m_sockfd	net_frame.h	/^    int  m_sockfd;  \/\/客户端的socket$/;"	m	class:CTcpClient	access:public
+m_socklen	net_frame.h	/^    int m_socklen;      \/\/结构体struct sockaddr_in的大小$/;"	m	class:CTcpServer	access:private
+main	MutiProcessClient.cpp	/^int main(int argc, char* argv[]){$/;"	f	signature:(int argc, char* argv[])
+main	MutiProcessServer.cpp	/^int main(int argc, char* argv[]){$/;"	f	signature:(int argc, char* argv[])
+restoreChild	MutiProcessServer.cpp	/^void restoreChild(int sig){$/;"	f	signature:(int sig)
+~CTcpClient	net_frame.cpp	/^CTcpClient::~CTcpClient(){$/;"	f	class:CTcpClient	signature:()
+~CTcpClient	net_frame.h	/^    ~CTcpClient();  \/\/析构函数自动关闭socket，释放资源$/;"	p	class:CTcpClient	access:public	signature:()
+~CTcpServer	net_frame.cpp	/^CTcpServer::~CTcpServer(){$/;"	f	class:CTcpServer	signature:()
+~CTcpServer	net_frame.h	/^    ~CTcpServer();  \/\/析构函数自动关闭socket，释放资源$/;"	p	class:CTcpServer	access:public	signature:()

@@ -146,17 +146,7 @@ TreeNode* CreateBinaryTree() {
 		InsertAVL(T, a[i], taller);
 	}
 	return T;
-	/*Recursion(T);
-	cout << endl;*/
 }
 
-//void test01() {
-//	CreateBinaryTree();
-//	
-//}
-//int main() {
-//	test01();
-//	//system("pause");
-//	return 0;
-//}
+
 
