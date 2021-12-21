@@ -63,7 +63,7 @@ void* pthmain(void* arg){
 
     pthread_detach(pthread_self()); //分离线程
 
-    pthread_setcanceltype(PTHREAD_CANCEL_DISABLE, NULL);    //设置取消方式为立即取消
+    pthread_setcanceltype(PTHREAD_CANCEL_ASYNCHRONOUS, NULL);    //设置取消方式为立即取消
 
     int sockfd = (int)(long)arg;    //与客户端的socket连接
 
